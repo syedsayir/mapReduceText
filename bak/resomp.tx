@@ -1,0 +1,52 @@
+-------------------------2-------------------------
+Doing Parallel Execution........
+Reading took: 568.293656
+Mapping took: 4340.994015
+Reduction took: 4.328395
+Writing took: 8.655435
+moving to sequential........
+Reading took: 555.447318
+Mapping took: 7827.475552
+Writing took: 16.721449
+Parallel Time: 4.922319, Sequential Time: 8.399665, Speedup: 1.706445
+0
+
+-------------------------4-------------------------
+Doing Parallel Execution........
+Reading took: 541.615196
+Mapping took: 2430.294638
+Reduction took: 5.554563
+Writing took: 8.231742
+moving to sequential........
+Reading took: 559.959183
+Mapping took: 7829.699596
+Writing took: 23.119742
+Parallel Time: 2.985747, Sequential Time: 8.412798, Speedup: 2.817653
+0
+
+-------------------------8-------------------------
+Doing Parallel Execution........
+Reading took: 537.368665
+Mapping took: 1527.160069
+Reduction took: 6.427238
+Writing took: 6.503084
+moving to sequential........
+Reading took: 556.319209
+Mapping took: 7709.213357
+Writing took: 33.481997
+Parallel Time: 2.077510, Sequential Time: 8.299040, Speedup: 3.994705
+0
+
+-------------------------16-------------------------
+Doing Parallel Execution........
+Reading took: 539.238345
+Mapping took: 1706.215938
+Reduction took: 15.992640
+Writing took: 10.251291
+moving to sequential........
+Reading took: 554.244826
+Mapping took: 7822.632697
+Writing took: 59.564480
+Parallel Time: 2.271758, Sequential Time: 8.436468, Speedup: 3.713630
+0
+

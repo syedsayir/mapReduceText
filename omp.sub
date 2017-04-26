@@ -1,0 +1,22 @@
+#!/bin/sh -l
+# FILENAME: mapreduce.sub
+
+module load devel
+cd $PBS_O_WORKDIR
+
+gcc -fopenmp -o mapreduce.o mapreduce.c;
+
+#echo "-------------------------1-------------------------"
+#./mapreduce.o 1
+
+echo "-------------------------2-------------------------"
+./mapreduce.o 2
+
+echo "-------------------------4-------------------------"
+./mapreduce.o 4
+
+echo "-------------------------8-------------------------"
+./mapreduce.o 8
+
+echo "-------------------------16-------------------------"
+./mapreduce.o 16

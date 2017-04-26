@@ -1,0 +1,5 @@
+1) Forking multiple threads for Readers not beneficial.
+2) Using parallel sections for readers and mappers not beneficial.
+3) can't really have reducer in parallel with anything else. Besides, reduction is a very tiny percentage of the total time.
+
+4) cache competition on L3 might be causing the 16 threads to be missing more and values to messup.
