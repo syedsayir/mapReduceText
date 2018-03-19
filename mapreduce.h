@@ -5,11 +5,12 @@
 #include <time.h>
 #include <math.h>
 #include <string.h>
+#include <sys/stat.h>
 
 #define LINELEN 128
 #define NUMFILES 18
 #define WORDSINLINE 22
-#define MAX_HASH_ENTRIES 9999
+#define MAX_HASH_ENTRIES 9767
 
 char *files[NUMFILES] = {"./RawText/39290-0.txt", 
 	"./RawText/39293-0.txt", 
